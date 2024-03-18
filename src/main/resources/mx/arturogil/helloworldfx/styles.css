@@ -1,0 +1,45 @@
+#mainBox {
+    -fx-background-color: #121212;
+    -fx-padding: 20px;
+}
+
+#wordInputField {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: lightgray;
+}
+
+#cardContainer {
+    -fx-spacing: 10px;
+}
+
+.card {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+
+
+.letter-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+
+.card {
+    -fx-text-fill: white;
+}
+
+#letterBox {
+    -fx-alignment: CENTER;
+    -fx-padding: 20px;
+}
+
+
+.root {
+    -fx-background-color: #121212;
+}
+

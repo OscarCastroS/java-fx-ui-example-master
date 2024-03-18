@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="mx.arturogil.helloworldfx.WordleController">
+    <children>
+        <VBox alignment="CENTER" id="mainBox">
+            <HBox fx:id="letterBox"/>
+            <TextField fx:id="wordInputField" onAction="#handleWordInput" promptText="Enter the word..." />
+        </VBox>
+        <VBox fx:id="cardContainer"/>
+    </children>
+</VBox>
+
